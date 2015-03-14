@@ -1,0 +1,67 @@
+Date:2015/1/21
+//Because the Ibus input method was removed by me,then I found the System Setting lost some Options
+//if you want to see the error detail,check the history in Software Center 
+//The solution is :
+sudo apt-get install ubuntu-desktop     
+PS:I execute the command but no changes in system,the i run sudo apt-get install unity-control-center first,
+   but anyhow the ubuntu-desktop is necessory.
+
+/******* Hope run sudo apt-get update syntx before you want to use apt-get every time***************/
+/******* If you want to check the information of installation, input dpkg -L ~(Name) or xxx.deb*****/
+
+Date:2015/1/22
+//this error has occurred many times, so today i bing it for detail
+//result from other installation was stopped exceptionally
+//so the solution is to remove the lock file under  /var/lib/apt/lists/lock
+sudo rm  /var/lib/apt/lists/lock           
+
+//sync your system clock to network clock
+sudo apt-get install ntpdate  //if installed, ignore it				
+# ntpdate cn.pool.ntp.org
+# hwclock --systohc
+
+Date:2015/1/25
+//build the wireless hotspot
+//the resolution can see 
+http://ubuntuhandbook.org/index.php/2014/06/share-internet-with-android-ubuntu-1404/
+
+Date:2015/2/1
+//install the putty client
+//as some guides said, downloaded the xxxtar.gz file, but fail
+//Finally, i found itś the GTK problem. though i can´t fix it,
+// but I can use apt-get command to install directly.
+
+
+Data:2015/2/2
+//mkdir foldername-----build a folder in current content
+//touch filename-------build an empty file
+//cat > filename-------build a file and wirte the follow youĺl input
+
+Data:2015/2/3
+//Sometimes I don´t know how to cdup, But it doesn't hinder using
+//you know, Uncomfortable it is.So I can use command:
+//cd .. <enter>
+//I found all my installed aplication are located in /usr/share/application/
+//Aha,I found my qq international.
+//here I want to add is if you openned Screen Reader accidently
+//It's very annoy,shut it up by cmd: killall orca   after turning off your voice
+
+//Date:2015/2/5
+//how to run a file end with suffix .sh
+//you can do: chmod +x xxx.sh  then ./xxx.sh   the first cmd is for modifying its executable property
+//	or  : sh xxx.sh
+
+//Data:2015/3/4
+//How to fix the abort of Software Center
+//result of the source lists error
+//1st:sudo rm /var/lib/apt/lists/* -vf to delete the original lists
+//2nd:sudo apt-get update  to update the lists,then ok
+
+//Date:2015/3/7
+//Before this, my cursor is always blinking which annoy me very much
+//The resolution is to disable an unknown display in setting
+//Settting->Display,then click the Unkonwn Display and off it, apply
+//In addition,if you want to close the blinking of cursor when typing
+//you can setting the keyboard.here i want to share idea for disable in gvim
+//cd to user directory,then vim .gvimrc and type set gcr=a:blinkon0,save & quit
+//OK, try it
