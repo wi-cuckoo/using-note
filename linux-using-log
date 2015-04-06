@@ -65,3 +65,9 @@ Data:2015/2/3
 //you can setting the keyboard.here i want to share idea for disable in gvim
 //cd to user directory,then vim .gvimrc and type set gcr=a:blinkon0,save & quit
 //OK, try it
+
+//Date:2015/4/6
+//I try to add a dir to the PATH
+//$ export PATH="/dir:$PATH"
+//but if make it works forever,you should edit /etc/profile log
+//add an extra line in the file end, as above
