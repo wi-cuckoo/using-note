@@ -71,3 +71,5 @@ Data:2015/2/3
 //$ export PATH="/dir:$PATH"
 //but if make it works forever,you should edit /etc/profile log
 //add an extra line in the file end, as above
+//If you want to remove icons in desktop
+//I recommmend you using tweak tool,which is really good and easy to use
