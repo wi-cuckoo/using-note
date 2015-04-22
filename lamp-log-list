@@ -1,0 +1,10 @@
+MySQL:
+	datadir=/var/lib/mysql
+	socket=/var/lib/mysql/mysql.sock
+	log-error=/var/log/mysql.log
+	pid-file=/var/run/mysqld/mysqld.pid
+
+Apache:
+	/var/www/html
+	/etc/httpd/conf/httpd.conf --------mainly configuration file of Apache
+	/usr/share/httpd/manual  ---------Apache manual file directory
