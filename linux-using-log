@@ -73,3 +73,9 @@ Data:2015/2/3
 //add an extra line in the file end, as above
 //If you want to remove icons in desktop
 //I recommmend you using tweak tool,which is really good and easy to use
+
+//Date:2015/4/25
+//Yesterday, shut off firewalld service by using iptables
+//but the outside net can't visit my host, thought i add two lines in /etc/sysconfig/iptables
+//then i google for answer. found nothing but I try to change their position in log. it works.
+//so the position of the line you added is very orderable.
