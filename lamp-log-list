@@ -8,3 +8,12 @@ Apache:
 	/var/www/html
 	/etc/httpd/conf/httpd.conf --------mainly configuration file of Apache
 	/usr/share/httpd/manual  ---------Apache manual file directory
+	/usr/share/httpd       ----------apache root directory
+	Apache log file:
+	/etc/httpd/logs       ---------include error_logs
+
+
+	something important (configuration) file:
+	/etc/selinux/config
+	/usr/bin/sys*
+	/etc/sysconfig/*
