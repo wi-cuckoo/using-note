@@ -1,0 +1,6 @@
+#
+#
+in access_log file of apache, one item contain such below information:
+
+for example, a item looks like:
+::1 - - [29/Apr/2015:11:41:13 +0800] "OPTIONS * HTTP/1.0" 200 - "-" "Apache/2.4.6 (CentOS) PHP/5.4.16 (internal dummy connection)"
