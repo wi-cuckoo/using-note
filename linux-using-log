@@ -79,3 +79,12 @@ Data:2015/2/3
 //but the outside net can't visit my host, thought i add two lines in /etc/sysconfig/iptables
 //then i google for answer. found nothing but I try to change their position in log. it works.
 //so the position of the line you added is very orderable.
+
+//I built a private cloud server. thereafter, i can download my file on remote device
+//when i changed php.ini to enable utf-8 coding, should restart httpd service to make it works
+
+//Date:2015/4/30
+//by a mistake when remove bluetooth tool, broke the gnome desktop
+//I had to reinstall it. but something became different.
+//luckily, someone told me using yum history rollback <ID> to recover it.
+//thanks god, it came back after few mins.
