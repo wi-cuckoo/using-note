@@ -88,3 +88,7 @@ Data:2015/2/3
 //I had to reinstall it. but something became different.
 //luckily, someone told me using yum history rollback <ID> to recover it.
 //thanks god, it came back after few mins.
+
+//Date:2015/5/21
+//I apply a domin name on no-ip.org
+//the client was installed, and the file is in /usr/local/etc/no-ip2.conf
