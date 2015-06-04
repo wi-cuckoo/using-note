@@ -1,0 +1,8 @@
+#
+#
+#
+#
+#
+* the location of repository in CentOS is /etc/yum.repos.d
+
+* check version of ssh in /etc/ssh/sshd_config | grep Protocol
